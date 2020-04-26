@@ -1,0 +1,13 @@
+#exclude all files
+*
+#include ignore file
+!/.gitignore
+#include source file(s)
+#add any relevant file that is not generated
+!/Summary.tex
+!/README.md
+#include figure files
+!/Summary.pdf
+!/references.bib
+!/sections
+!/sections/*.tex

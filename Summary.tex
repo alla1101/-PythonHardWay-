@@ -1,0 +1,33 @@
+\documentclass[a4paper]{report}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} %Loading the package
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{csquotes}
+\usepackage[style=ieee,backend=bibtex,maxbibnames=90]{biblatex}
+\usepackage{wrapfig}
+\usepackage{soul}
+\usepackage{tcolorbox}
+
+\usepackage{pythonhighlight}
+\usepackage{listings}
+
+\addbibresource{references.bib}
+
+\author{Alla N. Barakat\\a2la1101@gmail.com\\Computer System Design Department, Benghazi University}
+
+\title{Summary of: Learn Python The Hard Way}
+
+\date{\today}
+%\parencite{KandR}
+%\textcite{KandR}
+\begin{document}
+    \maketitle
+    
+    \newpage
+    \input{sections/Introduction.tex}
+    \input{sections/Exp01.tex}
+    
+\end{document}
