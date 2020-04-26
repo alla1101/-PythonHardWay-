@@ -11,3 +11,6 @@
 !/references.bib
 !/sections
 !/sections/*.tex
+!/Exercises
+!/Exercises/*
+!/Exercises/*/*.py
