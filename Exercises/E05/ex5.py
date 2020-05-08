@@ -1,7 +1,7 @@
 my_name='Alla Barakat'
 my_age=26 # years
-my_height=180 # cm
-my_weight=150 # kilogram
+my_height=178 # cm
+my_weight=120 # kilogram
 my_eyes="black"
 my_teeth='white'
 my_hair='black'
